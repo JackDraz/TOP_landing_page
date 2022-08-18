@@ -19,7 +19,8 @@ body {
     margin: 20px 50px 0 50px;
     
 }
-.header-logo{
+.header-logo,
+.call-bold {
     font-size: 24px;
     font-weight: 700;
 }
@@ -75,8 +76,8 @@ a {
 .sign-up {
     width: 100px;
     height: 30px;
-    border-radius: 25px;
-    background-color: #3882f6;
+    border-radius: 5px;
+    background-color: #6441a5;
     color: #f9faf8;
 }
 
@@ -111,6 +112,7 @@ a {
 
 .game-backgrounds {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 32px;
 }
@@ -151,4 +153,46 @@ a {
     font-size: 18px;
     font-weight: 700;
     text-align: right;
+}
+
+/* footer */
+
+.call-to-action {
+    background-color: white;
+    display: flex;
+    padding: 50px;
+    justify-content: center
+}
+
+.call-box{
+    background-color: #6441a5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.call-sign-up {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #6441a5;
+    color: #f9faf8;
+    margin: 20px;
+}
+
+.call-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+}
+.call-bold {
+    margin: 0;
+}
+.support-text {
+    margin: 0;
 }
