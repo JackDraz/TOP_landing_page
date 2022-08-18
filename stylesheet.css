@@ -42,7 +42,8 @@ ul {
     padding: 0;
 }
 
-a {
+a,
+.footer-text {
     text-decoration: none;
     color: #e5e7eb;
 }
@@ -195,4 +196,8 @@ a {
 }
 .support-text {
     margin: 0;
+}
+
+.footer {
+    text-align: center;
 }
